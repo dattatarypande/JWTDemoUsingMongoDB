@@ -1,0 +1,31 @@
+http://localhost:8000/auth/register
+
+{
+  "email":"pradnya@gmail.com",
+  "password":"pradnya@123",
+  "fullName":"pradnya pande"
+}
+
+
+http://localhost:8000/auth/sign_in 
+{
+  "email":"pradnya@gmail.com",
+  "password":"pradnya@123"
+}
+
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYWRueWFAZ21haWwuY29tIiwiZnVsbE5hbWUiOiJwcmFkbnlhIHBhbmRlIiwiX2lkIjoiNjJiZWQwOGJhOGE4YmI5ZTQ0ZWZjMzQ2IiwiaWF0IjoxNjU2NjcyNTE1fQ.iddI1jCbuE-xEkCcoklUyRcI2Zl16EHd2Wt6qd-olNM"
+}
+
+
+http://localhost:8000/profile
+
+content-type  application/json
+Authorization JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYWRueWFAZ21haWwuY29tIiwiZnVsbE5hbWUiOiJwcmFkbnlhIHBhbmRlIiwiX2lkIjoiNjJiZWQwOGJhOGE4YmI5ZTQ0ZWZjMzQ2IiwiaWF0IjoxNjU2NjcyNTE1fQ.iddI1jCbuE-xEkCcoklUyRcI2Zl16EHd2Wt6qd-olNM
+
+*Add JWT before token
+https://www.loginradius.com/blog/engineering/nodejs-and-mongodb-application-authentication-by-jwt/
+
+
+
